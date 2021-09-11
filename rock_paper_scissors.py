@@ -22,4 +22,16 @@ while True:
   if user_input == "rock" and computer_pick == "scissors":
     print("You win!")
     user_wins += 1
+    continue
+
+  if user_input == "paper" and computer_pick == "rock":
+    print("You win!")
+    user_wins += 1
+    continue
+
+  if user_input == "scissors" and computer_pick == "paper":
+    print("You win!")
+    user_wins += 1
+    continue
+
 
